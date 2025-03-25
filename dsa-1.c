@@ -1,7 +1,7 @@
 //this code is used to calculate the average marks obtained by a student in 3 subjects ie mathematics, physics and chemistry with each having 4 tests or assignments.
 #include <stdio.h>
 int main(){
-    int mathematics[4],physics[4],chemistry[];
+    int mathematics[4],physics[4],chemistry[4];
     int i;
     float average_mathematics,average_physics,average_chemistry;
     float average_total;
