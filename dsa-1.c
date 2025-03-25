@@ -5,15 +5,15 @@ int main(){
     int i;
     float average_mathematics,average_physics,average_chemistry;
     float average_total;
-    for(i=0;i<4;i++){
-        printf("Enter the marks of mathematics:\n");
+    printf("Enter the marks of mathematics:\n");
+     for(i=0;i<4;i++){
         scanf("%d",&mathematics[i]);
     }
-printf("Enter the marks of physics:\n");
+    printf("Enter the marks of physics:\n");
     for(i=0;i<4;i++){
         scanf("%d",&physics[i]);
     }
-printf("Enter the marks of chemistry:\n");
+    printf("Enter the marks of chemistry:\n");
     for(i=0;i<4;i++){
         scanf("%d",&chemistry[i]);
     }
